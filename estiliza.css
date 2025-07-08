@@ -1,0 +1,49 @@
+
+/*-- fundo da página com uma cor suave --*/
+body{
+    background-color: lightcyan;
+} 
+
+/*-- título com cor diferente e centralizado --*/
+.tituloPrincipal{
+    color:darkred; font-size: 30px;text-align:center;
+}
+
+/*-- parágrafo com tamanho de fonte maior e justificado --*/
+.paraBio{
+    font-size: 20px; text-align: justify;
+}  
+
+/*-- espaçamento maior entre os itens da lista --*/
+.atividadesFavoritas{
+    font-size: 18px; 
+}
+
+.atividadesFavoritas li {
+  height: 30px;
+}
+
+/*-- imagem com bordas arredondadas e tamanho adequado --*/
+.imagemFav{
+    border-radius: 4px; width:"150";
+}
+
+.capitulo{
+    font-size: 20px; height: 30px; 
+}
+
+/*-- tabela estilizada --*/
+.tabela{
+    background-color: aqua; border-style:double; 
+}
+
+.linkS{font-size: 18px}
+
+/*-- mudança de cor do link quando o mouse passar sobre ele --*/
+.linkS:hover{
+    color: purple;
+}
+
+.paraMens{
+    font-size: 20px; color: blue;
+}
